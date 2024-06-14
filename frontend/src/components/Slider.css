@@ -1,0 +1,44 @@
+.slider {
+  position: relative;
+  width: 100%;
+  margin: 0 auto 100px auto;
+  overflow: hidden;
+  max-width: 900px;
+  height: 500px;
+}
+
+.slider img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.slider img.active {
+  opacity: 1;
+}
+
+.slider button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  color: white;
+  border: none;
+  font-size: 42px;
+  padding: 10px 20px;
+  cursor: pointer;
+  z-index: 100;
+}
+
+.slider button:first-child {
+  left: 10px;
+}
+
+.slider button:last-child {
+  right: 10px;
+}

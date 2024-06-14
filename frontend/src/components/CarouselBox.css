@@ -1,0 +1,26 @@
+.carousel-image {
+  max-height: 380px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.custom-btn {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+}
+
+.custom-btn:hover {
+  background-color: #45a049;
+}
+.large-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+}
+
+.large-subtitle {
+  font-size: 24px;
+  color: white;
+  line-height: 1.5;
+}

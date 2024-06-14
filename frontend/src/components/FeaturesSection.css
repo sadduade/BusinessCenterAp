@@ -1,0 +1,27 @@
+.row {
+  margin-top: 20px;
+}
+
+.col {
+  padding: 20px;
+}
+
+.icon-margin {
+  margin-bottom: 15px;
+}
+
+.text-large {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.text-medium {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.text-small {
+  font-size: 14px;
+  line-height: 1.3;
+}

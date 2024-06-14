@@ -1,0 +1,58 @@
+.business-center .text-content {
+  padding: 20px;
+  width: 78%;
+  text-align: left;
+  margin-left: 200px;
+  margin-top: 20px;
+  transition: none;
+}
+
+.business-center .text-content h1 {
+  font-size: 25px;
+}
+
+.business-center .text-content h2 {
+  font-size: 22px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.business-center .text-content p {
+  font-size: 18px;
+  margin-top: 25px;
+}
+
+.custom-list li {
+  padding-left: 1em;
+  text-indent: -1em;
+  font-size: 18px;
+}
+
+.custom-list {
+  list-style: none;
+  padding: 0;
+}
+
+ul {
+  line-height: 1.6;
+}
+
+.custom-list li:before {
+  content: "–";
+  padding-right: 0.5em;
+}
+
+#access-line {
+  margin-bottom: 5px;
+  margin-left: 2px;
+}
+
+#cleanliness-line {
+  margin-top: 5px;
+  margin-left: 2px;
+}
+
+#access-line,
+#cleanliness-line {
+  line-height: 1.4;
+}
